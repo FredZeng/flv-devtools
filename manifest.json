@@ -1,0 +1,10 @@
+{
+  "name": "flv.js Extensions",
+  "description": "DevTools for flv.js",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "./src/background.js"
+  },
+  "devtools_page": "./dist/index.html"
+}
