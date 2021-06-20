@@ -1,5 +1,5 @@
 {
-  "name": "flv.js Extensions",
+  "name": "flv.js devtools",
   "description": "DevTools for flv.js",
   "version": "1.0",
   "manifest_version": 2,
@@ -7,5 +7,9 @@
     "scripts": ["src/background.js"],
     "persistent": false
   },
-  "devtools_page": "devtools.html"
+  "devtools_page": "devtools.html",
+  "permissions": [
+    "storage",
+    "downloads"
+  ]
 }
