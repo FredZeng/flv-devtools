@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: path.resolve(__dirname, '../devtools/index.js'),
+  entry: path.resolve(__dirname, '../devpanel/index.js'),
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, '../dist'),
@@ -34,7 +34,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'flv.js DevTools',
       filename: 'index.html',
-      template: path.resolve(__dirname, '../devtools/index.html'),
+      template: path.resolve(__dirname, '../devpanel/index.html'),
     })
   ],
   resolve: {
